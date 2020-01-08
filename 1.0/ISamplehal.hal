@@ -1,0 +1,5 @@
+package rajatgupta1998.hardware.samplehal@1.0;
+
+interface ISamplehal {
+    getVersion() generates (uint32_t ver);
+};
