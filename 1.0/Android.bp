@@ -4,7 +4,11 @@ hidl_interface {
     name: "rajatgupta1998.hardware.samplehal@1.0",
     root: "rajatgupta1998.hardware",
     srcs: [
+        "ISamplehal.hal",
     ],
-    gen_java: false,
+    interfaces: [
+        "android.hidl.base@1.0",
+    ],
+    gen_java: true,
 }
 
