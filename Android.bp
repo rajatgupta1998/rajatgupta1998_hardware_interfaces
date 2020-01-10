@@ -1,0 +1,4 @@
+hidl_package_root {
+    name: "rajatgupta1998.hardware",
+    path: "vendor/rajatgupta1998/sample/hardware/interfaces",
+}
